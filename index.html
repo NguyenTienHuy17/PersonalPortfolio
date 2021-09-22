@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huy's porfolio</title>
+    <link rel="icon" href="/assets/img/Huy_chinhsua.jpg" type="image/x-icon" />
+    <!-- themify -->
+    <link rel="stylesheet" href="assets/font/themify-icons/themify-icons.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+                <a href="#" class="nav__logo">Tiến Huy</a>
+                <a href="#" class="nav__img"><img src="assets/img/IMG_1734.PNG" alt=""></a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="ti-home nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="ti-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="ti-file nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <!-- <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="ti-briefcase nav__icon"></i> Services
+                            </a>
+                        </li> -->
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="ti-image nav__icon"></i> Porfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="ti-email nav__icon"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <i style="font-size: 1.25rem;" class="ti-close nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav_btns">
+                    <!-- theme change button -->
+                    <i class="ti-eye change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ti-view-grid"></i>
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <!-- main -->
+    <main class="main" id="main">
+        <!-- home -->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.facebook.com/" target="blank" class="home__social-icon">
+                                <i class="ti-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="blank" class="home__social-icon">
+                                <i class="ti-instagram"></i>
+                            </a>
+                            <a href="https://github.com/" target="blank" class="home__social-icon">
+                                <i class="ti-github"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <img class="home-img" style="border-radius: 2rem;" src="assets/img/Huy_chinhsua1.jpg" alt="ảnh">
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">
+                                Xin chào, tôi là Huy
+                            </h1>
+                            <h3 class="home__subtitle">
+                                Frontend developer
+                            </h3>
+                            <p class="home__description">
+                                Chưa có kinh nghiệm thực tế với các dự án web và phát triển
+                            </p>
+                                <a href="#contact" class="button button--flex">
+                                   Contact me <i class="ti-email nav__icon button__icon"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="ti-mouse home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="ti-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        <!-- about -->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My intrduction</span>
+                <div class="about__container container grid">
+                    <img src="assets/img/Huy1.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">Web developer, với kiến thức nền nhưng chưa có kinh nghiệm thực tế, 
+                            làm việc trong lĩnh vực web, thiết kế Ui, Ux.
+                        </p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">00+ </span>
+                                <span class="about__info-name">năm <br> kinh nghiệm</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">5+ </span>
+                                <span class="about__info-name">Bài tập lớn <br> project</span>
+                            </div>
+                        </div>
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/CV intern Nguyen Tien Huy.pdf" class="button button--flex">
+                                Download CV<i class="ti-download button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- skills -->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+                <div class="skills__container container grid">
+                    <div>
+                        <!-- skills1 -->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="ti-bookmark skills__icon"></i>
+                                <div class="skills__title">
+                                    <h1 class="skills__title">Frontend developer</h1>
+                                    <span class="skills__subtitle">7 out of 10</span>
+                                </div>
+                                <i class="ti-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html">
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                         <!-- skills2 -->
+                         <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="ti-server skills__icon"></i>
+                                <div class="skills__title">
+                                    <h1 class="skills__title">Backend developer</h1>
+                                    <span class="skills__subtitle">6 out of 10</span>
+                                </div>
+                                <i class="ti-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">C++</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__cpp">
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">C#</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__csharp">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__java">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!-- skills3 -->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="ti-world skills__icon"></i>
+                                <div class="skills__title">
+                                    <h1 class="skills__title">English</h1>
+                                    <span class="skills__subtitle">8 out of 10</span>
+                                </div>
+                                <i class="ti-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Read</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__read">
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Listen</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__listen">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">speak</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__speak">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">write</h3>
+                                        <span class="skills__number">65%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__write">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- qualification -->
+            <section class="qualification section">
+                <h2 class="section__title">
+                    Qualification
+                </h2>
+                <span class="section__subtitle">My personal journey</span>
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="ti-bookmark-alt qualification__icon"></i>
+                            Education
+                        </div>
+                        <!-- <div class="qualification__button button--flex" data-target='#work'>
+                            <i class="ti-briefcase qualification__icon"></i>
+                            Work
+                        </div> -->
+                    </div>
+                    <div class="qualification__sections">
+                        <!-- qualification content 1 -->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!-- qualification 1 -->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Information Technology</h3>
+                                    <span class="qualification__subtitle">Hanoi University of Industry</span>
+                                    <div class="qualification__calendar">
+                                        <i class="ti-calendar"></i>
+                                        2018-2022
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            <!-- qualification 2 -->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Frontend developer</h3>
+                                    <span class="qualification__subtitle">Self learning</span>
+                                    <div class="qualification__calendar">
+                                        <i class="ti-calendar"></i>
+                                        2018-now
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- services -->
+            <!-- <section class="sevices section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">What I offer</span>
+                <div class="sevices__container container grid">
+                    services 1
+                    <div class="sevices__content">
+                        <i class="ti-layout-grid2 services__icon"></i>
+                        <h3 class="services__title">Ui/Ux <br> Design</h3>
+                    </div>
+                </div>
+            </section> -->
+        <!-- portfolio -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- portfolio 1 -->
+                    <div class="portfolio__content grid swiper-slide" id="porf1">
+                        <img src="assets/img/img1.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern website</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with Ui components 
+                                and animated unteractions</p>
+                            <a href="#" onclick="popup1()" class="button button--flex button--small portfolio__button" >
+                                Demo
+                                <i class="ti-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                     <!-- portfolio 2 -->
+                     <div class="portfolio__content grid swiper-slide" id="porf2">
+                        <img src="assets/img/img2.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Code</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with Ui components 
+                                and animated unteractions</p>
+                            <a href="#" onclick="popup2()" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="ti-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                     <!-- portfolio 3 -->
+                     <div class="portfolio__content grid swiper-slide" id="porf3">
+                        <img src="assets/img/img3.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Working tools</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with Ui components 
+                                and animated unteractions</p>
+                            <a href="#" onclick="popup3()" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="ti-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- add arrow -->
+                <div class="swiper-button-next">
+                    <i class="ti-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="ti-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <!-- add pagination-->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- contact me -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="ti-mobile contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contact__subtitle">0968-637-831</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="ti-email contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email me</h3>
+                            <span class="contact__subtitle">huy144012@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="ti-map-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Ha Noi, Viet Nam</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact__from grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="contact_name" class="contact__label">Name</label>
+                            <input id="contact_name" type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="contact_email" class="contact__label">Email</label>
+                            <input id="contact_email" type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="contact_message" class="contact__label">Message</label>
+                        <textarea name="" id="contact_message" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+                    <div><a href="" class="button button--flex">
+                        Send message
+                        <i class="ti-rocket button__icon"></i>
+                    </a></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Tiến Huy</h1>
+                    <span class="footer__subtitle">Frontend developer</span>
+                </div>
+                <ul class="footer__links">
+                    <li><a href="#portfolio" class="footer__link">Porfolio</a></li>
+                    <li><a href="#contact" class="footer__link">Contact me</a></li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/I.M.NguyenTienHuy/" target="_blank" class="footer__social">
+                        <i class="ti-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_tien.huy/" target="_blank" class="footer__social">
+                        <i class="ti-instagram"></i>
+                    </a>
+                    <a href="https://mail.google.com/mail/" target="_blank" class="footer__social">
+                        <i class="ti-google"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; NguyenTienHuy</p>
+        </div>
+    </footer>
+    <!-- scroll top -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ti-arrow-up scrollup__icon"></i>
+    </a>
+    <!-- swiper js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- modal -->
+    <div id="modal1">
+        <img src="assets/img/img1.jpg" alt="">
+        <a href="#" onclick="toggle()" class="button" >
+            Back
+            <i class="ti-back-left button__icon"></i>
+        </a>
+    </div>
+    <div id="modal2">
+        <img src="assets/img/img2.jpg" alt="">
+        <a href="#" onclick="toggle()" class="button" >
+            Back
+            <i class="ti-back-left button__icon"></i>
+        </a>
+    </div>
+    <div id="modal3">
+        <img src="assets/img/img3.jpg" alt="">
+        <a href="#" onclick="toggle()" class="button" >
+            Back
+            <i class="ti-back-left button__icon"></i>
+        </a>
+    </div>
+</body>
+</html>
